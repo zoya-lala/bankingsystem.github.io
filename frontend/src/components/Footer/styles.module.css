@@ -1,0 +1,14 @@
+.Footer {
+    border: 0px solid red;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    height: 65px;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #00154B;
+    font-size: large;
+}

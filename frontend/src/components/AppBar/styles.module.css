@@ -1,0 +1,45 @@
+body {
+    background-color: #c3c3c3;
+}
+
+.AppBar {
+    border: 0px solid red;
+    background-color: rgb(255, 255, 255);
+    height: 65px;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+	z-index: 10 !important;
+    /* box-shadow: 1px 4px 5px rgba(0,0,0,0.3); */
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.AppBar .Logo {
+    justify-self: flex-start;
+	border: 0px solid red;
+	margin-left: 20px;
+	cursor: pointer;
+	position: relative;
+	z-index: 5;
+}
+
+.AppBar .Logo img {
+    border: 0px solid black;
+    height: 39px;
+}
+
+.AppBar .NavButtons {
+	position: absolute;
+	right: 0;
+	display: flex;
+	align-items: center;
+	column-gap: 15px;
+	padding: 0px 15px;
+	border: 0px solid red;
+    font-weight: bold;
+}

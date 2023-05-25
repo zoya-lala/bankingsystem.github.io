@@ -1,0 +1,55 @@
+.CustomerDetails {
+	border: 0px solid red;
+	height: 100%;
+	width: 100%;
+	background-color: rgb(238, 213, 255);
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center; */
+	align-items: center;
+}
+
+.CustomerDetails .Head {
+	border: 0px solid red;
+	text-align: center;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: large;
+}
+
+.CustomerDetails .UpperC {
+	height: fit-content;
+	display: flex;
+	flex-direction: row;
+	column-gap: 40px;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 8px;
+	margin: 25px;
+	width: 750px;
+}
+
+.CustomerDetails .UpperC .UserDetails {
+	border: 0px solid red;
+	width: 550px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 25px;
+	padding: 10px;
+}
+
+.CustomerDetails .UserDetails .Name {
+	display: flex;
+	align-items: center;
+	column-gap: 90px;
+}
+
+.CustomerDetails .UserDetails .CurrentBalance {
+	display: flex;
+	align-items: center;
+	column-gap: 20px;
+}
+
+.CustomerDetails .UserDetails .Buttons {
+	display: flex;
+	column-gap: 15px;
+}

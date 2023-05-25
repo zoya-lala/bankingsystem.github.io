@@ -1,0 +1,40 @@
+.Transactions {
+	border: 0px solid red;
+	box-sizing: border-box;
+	background-color: rgb(252, 220, 205);
+	width: 100%;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 10px;
+}
+
+.Transactions .Header {
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: xx-large;
+}
+
+.Transactions .Grid {
+	border: 0px solid blue;
+	box-sizing: border-box;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto;
+	text-align: center;
+	justify-content: space-between;
+	align-items: center;
+	/* column-gap: 5px; */
+	width: 90%;
+	height: fit-content;
+	padding: 15px;
+}
+
+.Transactions .Grid .Head {
+	font-weight: bold;
+	font-size: large;
+	/* border: 1px solid red; */
+	/* border-bottom: 1px solid red; */
+	width: 100%;
+	/* padding: 5px; */
+}

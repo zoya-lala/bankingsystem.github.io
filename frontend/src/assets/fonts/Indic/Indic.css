@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Mangal Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./mangal.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Mangal Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./mangalb.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Raavi Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./raavi.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Raavi Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./raavib.woff") format("woff");
+}

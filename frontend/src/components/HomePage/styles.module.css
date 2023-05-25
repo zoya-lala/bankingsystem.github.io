@@ -1,0 +1,30 @@
+.HomePage {
+    border: 0px solid rgb(212, 0, 255);
+    background: linear-gradient(90deg, #41304c 0%, #b9d8ff 90%);   
+    box-sizing: border-box;
+    position: fixed;
+    inset: 0px;
+    top: 65px;
+    bottom: 65px;
+    display: flex;
+    flex-direction: row;
+}
+
+.HomePage .Image {
+    border: 0px solid rgb(24, 26, 24);
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+}
+
+.HomePage .Text {
+    width: 100%;
+    border: 0px solid rgb(255, 0, 132);
+    color: #00154B;    
+    font-weight:800;
+    font-size: xx-large;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}

@@ -1,0 +1,75 @@
+.ViewCustomers {
+	border: 0px solid rgb(113, 43, 226);
+	box-sizing: border-box;
+	background-color: rgb(211, 234, 255);
+	width: 100%;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.ViewCustomers .List {
+	border: 0px solid red;
+	background-color: rgb(255, 255, 255);
+	border-radius: 8px;
+	height: fit-content;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+	margin: 20px;
+}
+
+.ViewCustomers .List .Top {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 5px;
+}
+
+.ViewCustomers .List .Top .Basic,
+.Centre {
+	font-size: large;
+}
+
+.ViewCustomers .List .Top .CurrentBalance {
+	font-weight: bolder;
+	font-size: xx-large;
+}
+
+.ViewCustomers .List .Header {
+	/* margin-top: 30px; */
+	font-weight: bold;
+	font-size: larger;
+}
+
+.ViewCustomers .List .Users {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
+}
+
+.ViewCustomers .List .Users .Banner {
+	border: 1px solid rgb(25, 118, 210);
+	height: 60px;
+	border-radius: 5px;
+	display: flex;
+	padding: 10px;
+}
+
+.ViewCustomers .List .Users .Banner .Left {
+	display: flex;
+	flex-direction: column;
+	row-gap: 5px;
+	width: 100%;
+}
+
+.ViewCustomers .List .Users .Banner .Right {
+	border: 0px solid red;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	column-gap: 15px;
+}
